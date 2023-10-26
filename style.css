@@ -1,0 +1,33 @@
+body{
+    display: block;
+    background-color: rgb(153, 176, 128);
+    direction: rtl;
+}
+
+a{
+    text-decoration:solid;
+    color: black;
+    padding: 14px;
+    transition: all 550ms;
+    top: 20px;
+    -webkit-transition: all 550ms;
+    -moz-transition: all 550ms;
+    -ms-transition: all 550ms;
+    -o-transition: all 550ms;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    flex-direction: row;
+}
+
+a:hover{
+     text-size-adjust: 20px;
+     background-color: rgb(116, 142, 99);
+     transition: all 550ms;
+     border-radius: 20px;
+}
